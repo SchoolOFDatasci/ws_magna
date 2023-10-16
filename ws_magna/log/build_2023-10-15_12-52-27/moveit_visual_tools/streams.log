@@ -1,0 +1,9 @@
+[0.098s] Invoking command in '/home/shahrukh/ws_magna/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/shahrukh/ws_magna/build/moveit_visual_tools -- -j8 -l8
+[0.242s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[0.242s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[0.243s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[9.193s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:104: CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o] Interrupt
+[9.194s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Interrupt
+[9.194s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:76: CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o] Interrupt
+[9.194s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Interrupt
+[9.194s] gmake: *** [Makefile:146: all] Interrupt

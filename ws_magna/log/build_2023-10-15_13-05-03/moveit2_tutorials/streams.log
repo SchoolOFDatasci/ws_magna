@@ -1,0 +1,9 @@
+[0.103s] Invoking command in '/home/shahrukh/ws_magna/build/moveit2_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/shahrukh/ws_magna/build/moveit2_tutorials -- -j8 -l8
+[0.271s] [  4%] [32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[0.278s] [  9%] [32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[0.281s] [ 13%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o[0m
+[0.282s] [ 18%] [32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[0.284s] [ 22%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o[0m
+[0.290s] [ 27%] [32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[0.299s] [ 31%] [32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[0.301s] [ 36%] [32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m

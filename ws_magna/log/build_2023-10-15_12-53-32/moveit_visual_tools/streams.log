@@ -1,0 +1,9 @@
+[0.183s] Invoking command in '/home/shahrukh/ws_magna/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/shahrukh/ws_magna/build/moveit_visual_tools -- -j8 -l8
+[2.373s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[2.373s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[2.396s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[56.158s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[63.130s] [ 66%] Built target moveit_visual_tools
+[63.398s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[89.979s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[91.593s] [100%] Built target moveit_visual_tools_demo

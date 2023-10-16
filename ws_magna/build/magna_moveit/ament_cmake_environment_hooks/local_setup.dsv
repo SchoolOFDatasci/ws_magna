@@ -1,0 +1,2 @@
+source;share/magna_moveit/environment/ament_prefix_path.sh
+source;share/magna_moveit/environment/path.sh

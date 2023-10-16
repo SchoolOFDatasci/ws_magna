@@ -1,0 +1,7 @@
+[01m[K/home/shahrukh/ws_magna/src/magna_moveit/src/motion_planning_api_tutorials.cpp:46:10:[m[K [01;31m[Kfatal error: [m[Ksrc/magna_moveit/include/magna_moveit/moveit_visual_tools.h/moveit_visual_tools.h: No such file or directory
+   46 | #include [01;31m[K<src/magna_moveit/include/magna_moveit/moveit_visual_tools.h/moveit_visual_tools.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/magna_moveit.dir/build.make:76: CMakeFiles/magna_moveit.dir/src/motion_planning_api_tutorials.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/magna_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

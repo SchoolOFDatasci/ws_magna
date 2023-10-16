@@ -1,0 +1,7 @@
+{
+  "package_name": "graph_msgs",
+  "non_idl_tuples": [
+    "/home/shahrukh/ws_magna/src/graph_msgs:msg/Edges.msg",
+    "/home/shahrukh/ws_magna/src/graph_msgs:msg/GeometryGraph.msg"
+  ]
+}

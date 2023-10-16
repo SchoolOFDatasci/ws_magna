@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (magna_moveit) JobQueued: {'identifier': 'magna_moveit', 'dependencies': OrderedDict()}
+[0.000610] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict()}
+[0.000746] (magna_moveit) JobStarted: {'identifier': 'magna_moveit'}
+[0.099227] (-) TimerEvent: {}
+[0.150963] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[0.199723] (-) TimerEvent: {}
+[0.236142] (magna_moveit) JobProgress: {'identifier': 'magna_moveit', 'progress': 'cmake'}
+[0.291010] (magna_moveit) JobProgress: {'identifier': 'magna_moveit', 'progress': 'build'}
+[0.292556] (magna_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shahrukh/ws_magna/build/magna_moveit', '--', '-j8', '-l8'], 'cwd': '/home/shahrukh/ws_magna/build/magna_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shahrukh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/shahrukh/ws_moveit2/install/moveit_visual_tools/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface/lib:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_framework/lib:/home/shahrukh/ws_moveit2/install/moveit_servo/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization/lib:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_perception/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group/lib:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_planning/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp/lib:/home/shahrukh/ws_moveit2/install/moveit_kinematics/lib:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/shahrukh/ws_moveit2/install/chomp_motion_planner/lib:/home/shahrukh/ws_moveit2/install/moveit_core/lib:/home/shahrukh/ws_moveit2/install/srdfdom/lib:/home/shahrukh/ws_moveit2/install/rviz_marker_tools/lib:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shahrukh'), ('OLDPWD', '/home/shahrukh/ws_magna/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2104'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shahrukh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shahrukh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shahrukh/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shahrukh-Lenovo-IdeaPad-S145-15API:@/tmp/.ICE-unix/2079,unix/shahrukh-Lenovo-IdeaPad-S145-15API:/tmp/.ICE-unix/2079'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bca28c6f_584d_4133_b99c_e1a1eccd8eef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.510'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/shahrukh/ws_moveit2/install/moveit_runtime:/home/shahrukh/ws_moveit2/install/moveit2_tutorials:/home/shahrukh/ws_moveit2/install/moveit:/home/shahrukh/ws_moveit2/install/moveit_planners:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_visual_tools:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface:/home/shahrukh/ws_moveit2/install/moveit_plugins:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_framework:/home/shahrukh/ws_moveit2/install/moveit_servo:/home/shahrukh/ws_moveit2/install/moveit_ros:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction:/home/shahrukh/ws_moveit2/install/moveit_ros_perception:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl:/home/shahrukh/ws_moveit2/install/moveit_ros_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp:/home/shahrukh/ws_moveit2/install/moveit_kinematics:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/shahrukh/ws_moveit2/install/chomp_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_core:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/srdfdom:/home/shahrukh/ws_moveit2/install/rviz_marker_tools:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_support:/home/shahrukh/ws_moveit2/install/moveit_resources:/home/shahrukh/ws_moveit2/install/moveit_resources_pr2_description:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_description:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_description:/home/shahrukh/ws_moveit2/install/moveit_common:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shahrukh/ws_magna/build/magna_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shahrukh/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/shahrukh/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/shahrukh/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/shahrukh/ws_moveit2/install/moveit_runtime:/home/shahrukh/ws_moveit2/install/moveit2_tutorials:/home/shahrukh/ws_moveit2/install/moveit:/home/shahrukh/ws_moveit2/install/moveit_planners:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_visual_tools:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface:/home/shahrukh/ws_moveit2/install/moveit_plugins:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_framework:/home/shahrukh/ws_moveit2/install/moveit_servo:/home/shahrukh/ws_moveit2/install/moveit_ros:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction:/home/shahrukh/ws_moveit2/install/moveit_ros_perception:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl:/home/shahrukh/ws_moveit2/install/moveit_ros_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp:/home/shahrukh/ws_moveit2/install/moveit_kinematics:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/shahrukh/ws_moveit2/install/chomp_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_core:/home/shahrukh/ws_moveit2/install/srdfdom:/home/shahrukh/ws_moveit2/install/rviz_marker_tools:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_support:/home/shahrukh/ws_moveit2/install/moveit_resources:/home/shahrukh/ws_moveit2/install/moveit_resources_pr2_description:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_description:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_description:/home/shahrukh/ws_moveit2/install/moveit_common:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.299824] (-) TimerEvent: {}
+[0.331161] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'cmake'}
+[0.333135] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/shahrukh/ws_magna/src/moveit2_tutorials', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/shahrukh/ws_magna/install/moveit2_tutorials'], 'cwd': '/home/shahrukh/ws_magna/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shahrukh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/shahrukh/ws_moveit2/install/moveit_visual_tools/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface/lib:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/shahrukh/ws_moveit2/install/moveit_setup_framework/lib:/home/shahrukh/ws_moveit2/install/moveit_servo/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization/lib:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_perception/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group/lib:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_planning/lib:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp/lib:/home/shahrukh/ws_moveit2/install/moveit_kinematics/lib:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/shahrukh/ws_moveit2/install/chomp_motion_planner/lib:/home/shahrukh/ws_moveit2/install/moveit_core/lib:/home/shahrukh/ws_moveit2/install/srdfdom/lib:/home/shahrukh/ws_moveit2/install/rviz_marker_tools/lib:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts/lib:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shahrukh'), ('OLDPWD', '/home/shahrukh/ws_magna/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2104'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shahrukh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shahrukh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shahrukh/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shahrukh-Lenovo-IdeaPad-S145-15API:@/tmp/.ICE-unix/2079,unix/shahrukh-Lenovo-IdeaPad-S145-15API:/tmp/.ICE-unix/2079'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bca28c6f_584d_4133_b99c_e1a1eccd8eef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.510'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/shahrukh/ws_moveit2/install/moveit_runtime:/home/shahrukh/ws_moveit2/install/moveit2_tutorials:/home/shahrukh/ws_moveit2/install/moveit:/home/shahrukh/ws_moveit2/install/moveit_planners:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_visual_tools:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface:/home/shahrukh/ws_moveit2/install/moveit_plugins:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_framework:/home/shahrukh/ws_moveit2/install/moveit_servo:/home/shahrukh/ws_moveit2/install/moveit_ros:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction:/home/shahrukh/ws_moveit2/install/moveit_ros_perception:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl:/home/shahrukh/ws_moveit2/install/moveit_ros_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp:/home/shahrukh/ws_moveit2/install/moveit_kinematics:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/shahrukh/ws_moveit2/install/chomp_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_core:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/srdfdom:/home/shahrukh/ws_moveit2/install/rviz_marker_tools:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_support:/home/shahrukh/ws_moveit2/install/moveit_resources:/home/shahrukh/ws_moveit2/install/moveit_resources_pr2_description:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_description:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_description:/home/shahrukh/ws_moveit2/install/moveit_common:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shahrukh/ws_magna/build/moveit2_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shahrukh/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/shahrukh/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/shahrukh/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/shahrukh/ws_moveit2/install/moveit_runtime:/home/shahrukh/ws_moveit2/install/moveit2_tutorials:/home/shahrukh/ws_moveit2/install/moveit:/home/shahrukh/ws_moveit2/install/moveit_planners:/home/shahrukh/ws_moveit2/install/pilz_industrial_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_visual_tools:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_visualization:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_demo:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core:/home/shahrukh/ws_moveit2/install/moveit_ros_control_interface:/home/shahrukh/ws_moveit2/install/moveit_plugins:/home/shahrukh/ws_moveit2/install/moveit_simple_controller_manager:/home/shahrukh/ws_moveit2/install/moveit_setup_assistant:/home/shahrukh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_core_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_controllers:/home/shahrukh/ws_moveit2/install/moveit_setup_app_plugins:/home/shahrukh/ws_moveit2/install/moveit_setup_framework:/home/shahrukh/ws_moveit2/install/moveit_servo:/home/shahrukh/ws_moveit2/install/moveit_ros:/home/shahrukh/ws_moveit2/install/moveit_ros_visualization:/home/shahrukh/ws_moveit2/install/moveit_hybrid_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_planning_interface:/home/shahrukh/ws_moveit2/install/moveit_ros_benchmarks:/home/shahrukh/ws_moveit2/install/moveit_ros_warehouse:/home/shahrukh/ws_moveit2/install/moveit_ros_robot_interaction:/home/shahrukh/ws_moveit2/install/moveit_ros_perception:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_ros_move_group:/home/shahrukh/ws_moveit2/install/moveit_planners_ompl:/home/shahrukh/ws_moveit2/install/moveit_ros_planning:/home/shahrukh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/shahrukh/ws_moveit2/install/moveit_planners_chomp:/home/shahrukh/ws_moveit2/install/moveit_kinematics:/home/shahrukh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/shahrukh/ws_moveit2/install/chomp_motion_planner:/home/shahrukh/ws_moveit2/install/moveit_core:/home/shahrukh/ws_moveit2/install/srdfdom:/home/shahrukh/ws_moveit2/install/rviz_marker_tools:/home/shahrukh/ws_moveit2/install/rosparam_shortcuts:/home/shahrukh/ws_moveit2/install/moveit_task_constructor_msgs:/home/shahrukh/ws_moveit2/install/moveit_resources_prbt_support:/home/shahrukh/ws_moveit2/install/moveit_resources:/home/shahrukh/ws_moveit2/install/moveit_resources_pr2_description:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_panda_description:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/shahrukh/ws_moveit2/install/moveit_resources_fanuc_description:/home/shahrukh/ws_moveit2/install/moveit_common:/home/shahrukh/ws_moveit2/install/moveit_configs_utils:/home/shahrukh/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.400090] (-) TimerEvent: {}
+[0.500761] (-) TimerEvent: {}
+[0.601265] (-) TimerEvent: {}
+[0.701769] (-) TimerEvent: {}
+[0.802285] (-) TimerEvent: {}
+[0.902795] (-) TimerEvent: {}
+[1.003316] (-) TimerEvent: {}
+[1.104157] (-) TimerEvent: {}
+[1.204761] (-) TimerEvent: {}
+[1.305318] (-) TimerEvent: {}
+[1.405951] (-) TimerEvent: {}
+[1.506581] (-) TimerEvent: {}
+[1.607177] (-) TimerEvent: {}
+[1.707769] (-) TimerEvent: {}
+[1.808366] (-) TimerEvent: {}
+[1.909038] (-) TimerEvent: {}
+[2.009609] (-) TimerEvent: {}
+[2.047499] (moveit2_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.109862] (-) TimerEvent: {}
+[2.210454] (-) TimerEvent: {}
+[2.233368] (moveit2_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.255406] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.310600] (-) TimerEvent: {}
+[2.411053] (-) TimerEvent: {}
+[2.511557] (-) TimerEvent: {}
+[2.609888] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.611623] (-) TimerEvent: {}
+[2.635082] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.642840] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.662702] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.675423] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.711822] (-) TimerEvent: {}
+[2.812357] (-) TimerEvent: {}
+[2.912750] (-) TimerEvent: {}
+[2.938168] (magna_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/magna_moveit.dir/src/motion_planning_api_tutorials.cpp.o\x1b[0m\n'}
+[2.982646] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.995459] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.995855] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.996465] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.012906] (-) TimerEvent: {}
+[3.059720] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/home/shahrukh/ws_moveit2/install/moveit_common/share/moveit_common/cmake)\n'}
+[3.097143] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.113014] (-) TimerEvent: {}
+[3.213447] (-) TimerEvent: {}
+[3.313912] (-) TimerEvent: {}
+[3.414391] (-) TimerEvent: {}
+[3.514880] (-) TimerEvent: {}
+[3.615445] (-) TimerEvent: {}
+[3.715826] (-) TimerEvent: {}
+[3.801603] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.815933] (-) TimerEvent: {}
+[3.916321] (-) TimerEvent: {}
+[4.016728] (-) TimerEvent: {}
+[4.117141] (-) TimerEvent: {}
+[4.217652] (-) TimerEvent: {}
+[4.318156] (-) TimerEvent: {}
+[4.419079] (-) TimerEvent: {}
+[4.519651] (-) TimerEvent: {}
+[4.620212] (-) TimerEvent: {}
+[4.720806] (-) TimerEvent: {}
+[4.821419] (-) TimerEvent: {}
+[4.922064] (-) TimerEvent: {}
+[5.022683] (-) TimerEvent: {}
+[5.063992] (magna_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shahrukh/ws_magna/src/magna_moveit/src/motion_planning_api_tutorials.cpp:46:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit_visual_tools/moveit_visual_tools.h: No such file or directory\n'}
+[5.064485] (magna_moveit) StderrLine: {'line': b'   46 | #include \x1b[01;31m\x1b[K<moveit_visual_tools/moveit_visual_tools.h>\x1b[m\x1b[K\n'}
+[5.064828] (magna_moveit) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.065106] (magna_moveit) StderrLine: {'line': b'compilation terminated.\n'}
+[5.075804] (magna_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/magna_moveit.dir/build.make:76: CMakeFiles/magna_moveit.dir/src/motion_planning_api_tutorials.cpp.o] Error 1\n'}
+[5.076217] (magna_moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/magna_moveit.dir/all] Error 2\n'}
+[5.076815] (magna_moveit) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.083185] (magna_moveit) CommandEnded: {'returncode': 2}
+[5.122843] (-) TimerEvent: {}
+[5.182697] (moveit2_tutorials) StdoutLine: {'line': b'-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  \n'}
+[5.222985] (-) TimerEvent: {}
+[5.253413] (moveit2_tutorials) StdoutLine: {'line': b'-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) \n'}
+[5.254836] (moveit2_tutorials) StdoutLine: {'line': b'-- BACKWARD_HAS_UNWIND=1\n'}
+[5.255725] (moveit2_tutorials) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE=0\n'}
+[5.256825] (moveit2_tutorials) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE_SYMBOL=0\n'}
+[5.257414] (moveit2_tutorials) StdoutLine: {'line': b'-- BACKWARD_HAS_DW=1\n'}
+[5.257582] (moveit2_tutorials) StdoutLine: {'line': b'-- BACKWARD_HAS_BFD=0\n'}
+[5.257980] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  \n'}
+[5.323103] (-) TimerEvent: {}
+[5.423484] (-) TimerEvent: {}
+[5.523969] (-) TimerEvent: {}
+[5.624454] (-) TimerEvent: {}
+[5.698149] (magna_moveit) JobEnded: {'identifier': 'magna_moveit', 'rc': 2}
+[5.724713] (-) TimerEvent: {}
+[5.825382] (-) TimerEvent: {}
+[5.925896] (-) TimerEvent: {}
+[6.026411] (-) TimerEvent: {}
+[6.126780] (-) TimerEvent: {}
+[6.227196] (-) TimerEvent: {}
+[6.327567] (-) TimerEvent: {}
+[6.427992] (-) TimerEvent: {}
+[6.460830] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread \n'}
+[6.509800] (moveit2_tutorials) StdoutLine: {'line': b'-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[6.528120] (-) TimerEvent: {}
+[6.628597] (-) TimerEvent: {}
+[6.729392] (-) TimerEvent: {}
+[6.830184] (-) TimerEvent: {}
+[6.831109] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.911560] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.930335] (-) TimerEvent: {}
+[6.950974] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.030768] (-) TimerEvent: {}
+[7.115668] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.130944] (-) TimerEvent: {}
+[7.231555] (-) TimerEvent: {}
+[7.325665] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.331700] (-) TimerEvent: {}
+[7.432246] (-) TimerEvent: {}
+[7.532899] (-) TimerEvent: {}
+[7.633601] (-) TimerEvent: {}
+[7.734150] (-) TimerEvent: {}
+[7.834684] (-) TimerEvent: {}
+[7.935248] (-) TimerEvent: {}
+[8.035826] (-) TimerEvent: {}
+[8.136365] (-) TimerEvent: {}
+[8.236935] (-) TimerEvent: {}
+[8.270758] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/home/shahrukh/ws_moveit2/install/moveit_core/share/moveit_core/cmake)\n'}
+[8.337150] (-) TimerEvent: {}
+[8.386777] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[8.437598] (-) TimerEvent: {}
+[8.538232] (-) TimerEvent: {}
+[8.638832] (-) TimerEvent: {}
+[8.739482] (-) TimerEvent: {}
+[8.840142] (-) TimerEvent: {}
+[8.848958] (moveit2_tutorials) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.940347] (-) TimerEvent: {}
+[9.040977] (-) TimerEvent: {}
+[9.141633] (-) TimerEvent: {}
+[9.212626] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.229751] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.241797] (-) TimerEvent: {}
+[9.342351] (-) TimerEvent: {}
+[9.442966] (-) TimerEvent: {}
+[9.543619] (-) TimerEvent: {}
+[9.644293] (-) TimerEvent: {}
+[9.744961] (-) TimerEvent: {}
+[9.845852] (-) TimerEvent: {}
+[9.946735] (-) TimerEvent: {}
+[10.047331] (-) TimerEvent: {}
+[10.147902] (-) TimerEvent: {}
+[10.215047] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.248055] (-) TimerEvent: {}
+[10.348576] (-) TimerEvent: {}
+[10.361168] (moveit2_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.448732] (-) TimerEvent: {}
+[10.459548] (moveit2_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.504376] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.548909] (-) TimerEvent: {}
+[10.649797] (-) TimerEvent: {}
+[10.750484] (-) TimerEvent: {}
+[10.850961] (-) TimerEvent: {}
+[10.864869] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[10.951193] (-) TimerEvent: {}
+[11.023527] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[11.051310] (-) TimerEvent: {}
+[11.151734] (-) TimerEvent: {}
+[11.252219] (-) TimerEvent: {}
+[11.352746] (-) TimerEvent: {}
+[11.453279] (-) TimerEvent: {}
+[11.517257] (moveit2_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[11.553438] (-) TimerEvent: {}
+[11.653975] (-) TimerEvent: {}
+[11.754425] (-) TimerEvent: {}
+[11.854876] (-) TimerEvent: {}
+[11.955344] (-) TimerEvent: {}
+[11.957392] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.957764] (moveit2_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.055491] (-) TimerEvent: {}
+[12.155960] (-) TimerEvent: {}
+[12.256429] (-) TimerEvent: {}
+[12.357028] (-) TimerEvent: {}
+[12.457739] (-) TimerEvent: {}
+[12.558355] (-) TimerEvent: {}
+[12.658841] (-) TimerEvent: {}
+[12.759394] (-) TimerEvent: {}
+[12.859891] (-) TimerEvent: {}
+[12.960388] (-) TimerEvent: {}
+[13.060952] (-) TimerEvent: {}
+[13.161443] (-) TimerEvent: {}
+[13.261891] (-) TimerEvent: {}
+[13.362364] (-) TimerEvent: {}
+[13.462838] (-) TimerEvent: {}
+[13.563316] (-) TimerEvent: {}
+[13.663825] (-) TimerEvent: {}
+[13.764335] (-) TimerEvent: {}
+[13.814157] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_task_constructor_core: 0.1.3 (/home/shahrukh/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)\n'}
+[13.864548] (-) TimerEvent: {}
+[13.931381] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[13.964735] (-) TimerEvent: {}
+[14.065238] (-) TimerEvent: {}
+[14.165869] (-) TimerEvent: {}
+[14.266340] (-) TimerEvent: {}
+[14.366823] (-) TimerEvent: {}
+[14.467309] (-) TimerEvent: {}
+[14.567812] (-) TimerEvent: {}
+[14.589434] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[14.667990] (-) TimerEvent: {}
+[14.768458] (-) TimerEvent: {}
+[14.869032] (-) TimerEvent: {}
+[14.969738] (-) TimerEvent: {}
+[15.070426] (-) TimerEvent: {}
+[15.128103] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[15.170652] (-) TimerEvent: {}
+[15.271200] (-) TimerEvent: {}
+[15.371718] (-) TimerEvent: {}
+[15.472210] (-) TimerEvent: {}
+[15.533914] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[15.572413] (-) TimerEvent: {}
+[15.672979] (-) TimerEvent: {}
+[15.773414] (-) TimerEvent: {}
+[15.873878] (-) TimerEvent: {}
+[15.974365] (-) TimerEvent: {}
+[16.074856] (-) TimerEvent: {}
+[16.175426] (-) TimerEvent: {}
+[16.276013] (-) TimerEvent: {}
+[16.376543] (-) TimerEvent: {}
+[16.477040] (-) TimerEvent: {}
+[16.577535] (-) TimerEvent: {}
+[16.678022] (-) TimerEvent: {}
+[16.745512] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.5.5 (/home/shahrukh/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake)\n'}
+[16.751185] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[16.778197] (-) TimerEvent: {}
+[16.878707] (-) TimerEvent: {}
+[16.979200] (-) TimerEvent: {}
+[17.079693] (-) TimerEvent: {}
+[17.180185] (-) TimerEvent: {}
+[17.218095] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_servo: 2.5.5 (/home/shahrukh/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)\n'}
+[17.280365] (-) TimerEvent: {}
+[17.380900] (-) TimerEvent: {}
+[17.481396] (-) TimerEvent: {}
+[17.581890] (-) TimerEvent: {}
+[17.682487] (-) TimerEvent: {}
+[17.782987] (-) TimerEvent: {}
+[17.883487] (-) TimerEvent: {}
+[17.975229] (moveit2_tutorials) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[17.983677] (-) TimerEvent: {}
+[18.007073] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)\n'}
+[18.083901] (-) TimerEvent: {}
+[18.184522] (-) TimerEvent: {}
+[18.285139] (-) TimerEvent: {}
+[18.385797] (-) TimerEvent: {}
+[18.486515] (-) TimerEvent: {}
+[18.553867] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[18.571526] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[18.572010] (moveit2_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[18.572276] (moveit2_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[18.572520] (moveit2_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[18.572753] (moveit2_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[18.572979] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[18.573190] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[18.573398] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[18.573607] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[18.573810] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[18.574017] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[18.574333] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[18.574561] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[18.577637] (moveit2_tutorials) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[18.586642] (-) TimerEvent: {}
+[18.687451] (-) TimerEvent: {}
+[18.761460] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[18.787875] (-) TimerEvent: {}
+[18.810468] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[18.888107] (-) TimerEvent: {}
+[18.988640] (-) TimerEvent: {}
+[19.089070] (-) TimerEvent: {}
+[19.189552] (-) TimerEvent: {}
+[19.289973] (-) TimerEvent: {}
+[19.390330] (-) TimerEvent: {}
+[19.443644] (moveit2_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[19.457507] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[19.490496] (-) TimerEvent: {}
+[19.590987] (-) TimerEvent: {}
+[19.691382] (-) TimerEvent: {}
+[19.781465] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[19.781887] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[19.791510] (-) TimerEvent: {}
+[19.891961] (-) TimerEvent: {}
+[19.992442] (-) TimerEvent: {}
+[20.008749] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[20.009140] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[20.092597] (-) TimerEvent: {}
+[20.192963] (-) TimerEvent: {}
+[20.293371] (-) TimerEvent: {}
+[20.309197] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[20.309572] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[20.393546] (-) TimerEvent: {}
+[20.494074] (-) TimerEvent: {}
+[20.594583] (-) TimerEvent: {}
+[20.595094] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[20.595484] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[20.694768] (-) TimerEvent: {}
+[20.795244] (-) TimerEvent: {}
+[20.894051] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[20.894500] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[20.895356] (-) TimerEvent: {}
+[20.995756] (-) TimerEvent: {}
+[21.096218] (-) TimerEvent: {}
+[21.146549] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[21.149847] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[21.150133] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[21.196331] (-) TimerEvent: {}
+[21.296877] (-) TimerEvent: {}
+[21.397338] (-) TimerEvent: {}
+[21.497777] (-) TimerEvent: {}
+[21.598211] (-) TimerEvent: {}
+[21.698666] (-) TimerEvent: {}
+[21.799133] (-) TimerEvent: {}
+[21.899606] (-) TimerEvent: {}
+[22.000086] (-) TimerEvent: {}
+[22.100607] (-) TimerEvent: {}
+[22.102273] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.0 (/home/shahrukh/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)\n'}
+[22.200883] (-) TimerEvent: {}
+[22.301569] (-) TimerEvent: {}
+[22.402034] (-) TimerEvent: {}
+[22.502509] (-) TimerEvent: {}
+[22.602986] (-) TimerEvent: {}
+[22.703536] (-) TimerEvent: {}
+[22.804041] (-) TimerEvent: {}
+[22.904563] (-) TimerEvent: {}
+[23.005050] (-) TimerEvent: {}
+[23.105556] (-) TimerEvent: {}
+[23.206086] (-) TimerEvent: {}
+[23.306684] (-) TimerEvent: {}
+[23.407299] (-) TimerEvent: {}
+[23.507969] (-) TimerEvent: {}
+[23.608633] (-) TimerEvent: {}
+[23.709220] (-) TimerEvent: {}
+[23.809815] (-) TimerEvent: {}
+[23.910376] (-) TimerEvent: {}
+[24.010951] (-) TimerEvent: {}
+[24.111561] (-) TimerEvent: {}
+[24.212209] (-) TimerEvent: {}
+[24.312832] (-) TimerEvent: {}
+[24.413402] (-) TimerEvent: {}
+[24.513972] (-) TimerEvent: {}
+[24.552935] (moveit2_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.614153] (-) TimerEvent: {}
+[24.715012] (-) TimerEvent: {}
+[24.815609] (-) TimerEvent: {}
+[24.916255] (-) TimerEvent: {}
+[25.016821] (-) TimerEvent: {}
+[25.117304] (-) TimerEvent: {}
+[25.218259] (-) TimerEvent: {}
+[25.318954] (-) TimerEvent: {}
+[25.419646] (-) TimerEvent: {}
+[25.439328] (moveit2_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[25.444900] (moveit2_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/shahrukh/ws_magna/build/moveit2_tutorials\n'}
+[25.481503] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 'SIGINT'}
+[25.492889] (-) EventReactorShutdown: {}
